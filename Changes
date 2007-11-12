@@ -1,0 +1,10 @@
+---
+global:
+  name: Data-Timeline
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2007-11-12T22:51:10Z
+    tags: []
+    version: 0.01
