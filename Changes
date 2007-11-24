@@ -4,6 +4,18 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - Removed superfluous requirement for DateTime::Format::DateParse
+      - 'Makefile.PL: moved auto_install call to after use_standard_tests call'
+      - '.shipit: added Twitter step'
+      - 'Makefile.PL: removed comment'
+      - updated MANIFEST
+      - updated t/perlcriticrc
+    date: 2007-11-21T18:22:19Z
+    tags:
+      - BUGFIX
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
     date: 2007-11-12T22:51:10Z
     tags: []

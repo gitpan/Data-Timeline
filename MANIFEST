@@ -15,7 +15,6 @@ inc/Module/Install/WriteAll.pm
 inc/Test/Compile.pm
 inc/Test/More.pm
 inc/UNIVERSAL/require.pm
-inc/YAML.pm
 lib/Data/Timeline.pm
 lib/Data/Timeline/Builder.pm
 lib/Data/Timeline/Entry.pm

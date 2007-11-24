@@ -7,17 +7,10 @@ perl_version '5.006';
 
 requires 'Class::Accessor::Complex';
 requires 'Class::Accessor::Constructor';
-requires 'DateTime::Format::DateParse';
 requires 'HTML::Table';
 requires 'Text::SimpleTable';
 
 build_requires 'Test::More' => '0.70';
-
-# feature 'Generated documentation',
-#     - default => 1,
-#     'Pod::Generated' => '0.02';
-
-auto_install;
 
 process_templates(
     first_year => 2007,
@@ -27,5 +20,6 @@ process_templates(
 );
 
 use_standard_tests(without => 'pod_coverage');
+auto_install;
 auto_include;
 WriteAll;
