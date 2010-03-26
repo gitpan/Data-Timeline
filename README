@@ -1,27 +1,56 @@
-This is the Perl distribution Data-Timeline.
+NAME
+    Data::Timeline - Time line represented as an object
+
+VERSION
+    version 1.100850
+
+SYNOPSIS
+        my $timeline = Data::Timeline->new;
+        $timeline->entries_push(Data::Timeline::Entry->new(
+            # ...
+        ));
+        $timeline->merge_timeline($other_timeline);
+
+DESCRIPTION
+    This class represents a time line, which is a collection of time line
+    entry objects (see Data::Timeline::Entry).
+
+METHODS
+  filter_timeline_by_date
+    FIXME
+
+  filter_timeline_by_type
+    FIXME
+
+  merge_timeline
+    FIXME
 
 INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
 
-Data-Timeline installation is straightforward. If your CPAN shell is
-set up, you should just be able to do
+BUGS AND LIMITATIONS
+    No bugs have been reported.
 
-    % cpan Data::Timeline
+    Please report any bugs or feature requests through the web interface at
+    <http://rt.cpan.org/Public/Dist/Display.html?Name=Data-Timeline>.
 
-Download it, unpack it, then build it as per the usual:
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you, or see <http://search.cpan.org/dist/Data-Timeline/>.
 
-    % perl Makefile.PL
-    % make && make test
+    The development version lives at
+    <http://github.com/hanekomu/Data-Timeline/>. Instead of sending patches,
+    please fork this project using the standard git and github
+    infrastructure.
 
-Then install it:
+AUTHOR
+      Marcel Gruenauer <marcel@cpan.org>
 
-    % make install
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2007 by Marcel Gruenauer.
 
-DOCUMENTATION
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 
-Data-Timeline documentation is available as in POD. So you can do:
-
-    % perldoc Data::Timeline
-
-to read the documentation online with your favorite pager.
-
-Marcel Gruenauer
