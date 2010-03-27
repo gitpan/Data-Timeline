@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Data::Timeline::Formatter::SimpleTable;
-our $VERSION = '1.100850';
+our $VERSION = '1.100860';
 # ABSTRACT: Print time line entry types side-by-side in a text table
 use Text::SimpleTable;
 use parent qw(Data::Timeline::Formatter);
@@ -40,7 +40,7 @@ Data::Timeline::Formatter::SimpleTable - Print time line entry types side-by-sid
 
 =head1 VERSION
 
-version 1.100850
+version 1.100860
 
 =head1 SYNOPSIS
 

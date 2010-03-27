@@ -3,9 +3,8 @@ use strict;
 use warnings;
 
 package Data::Timeline;
-our $VERSION = '1.100850';
+our $VERSION = '1.100860';
 # ABSTRACT: Time line represented as an object
-use 5.006;
 use parent qw(Class::Accessor::Complex Class::Accessor::Constructor);
 __PACKAGE__
     ->mk_constructor
@@ -43,7 +42,7 @@ Data::Timeline - Time line represented as an object
 
 =head1 VERSION
 
-version 1.100850
+version 1.100860
 
 =head1 SYNOPSIS
 

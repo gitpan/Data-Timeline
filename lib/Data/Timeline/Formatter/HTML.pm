@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Data::Timeline::Formatter::HTML;
-our $VERSION = '1.100850';
+our $VERSION = '1.100860';
 # ABSTRACT: Print time line entry types side-by-side in an HTML table
 use HTML::Table;
 use parent qw(Data::Timeline::Formatter);
@@ -39,7 +39,7 @@ Data::Timeline::Formatter::HTML - Print time line entry types side-by-side in an
 
 =head1 VERSION
 
-version 1.100850
+version 1.100860
 
 =head1 SYNOPSIS
 

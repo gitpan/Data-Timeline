@@ -14,22 +14,22 @@ name: Data-Timeline
 provides:
   Data::Timeline:
     file: lib/Data/Timeline.pm
-    version: 1.100850
+    version: 1.100860
   Data::Timeline::Builder:
     file: lib/Data/Timeline/Builder.pm
-    version: 1.100850
+    version: 1.100860
   Data::Timeline::Entry:
     file: lib/Data/Timeline/Entry.pm
-    version: 1.100850
+    version: 1.100860
   Data::Timeline::Formatter:
     file: lib/Data/Timeline/Formatter.pm
-    version: 1.100850
+    version: 1.100860
   Data::Timeline::Formatter::HTML:
     file: lib/Data/Timeline/Formatter/HTML.pm
-    version: 1.100850
+    version: 1.100860
   Data::Timeline::Formatter::SimpleTable:
     file: lib/Data/Timeline/Formatter/SimpleTable.pm
-    version: 1.100850
+    version: 1.100860
 requires:
   Carp: 0
   Class::Accessor::Complex: 0
@@ -47,4 +47,4 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Data-Timeline
   homepage: http://search.cpan.org/dist/Data-Timeline/
   repository: http://github.com/hanekomu/Data-Timeline
-version: 1.100850
+version: 1.100860

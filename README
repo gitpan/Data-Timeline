@@ -2,7 +2,7 @@ NAME
     Data::Timeline - Time line represented as an object
 
 VERSION
-    version 1.100850
+    version 1.100860
 
 SYNOPSIS
         my $timeline = Data::Timeline->new;

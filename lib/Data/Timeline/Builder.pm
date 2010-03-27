@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Data::Timeline::Builder;
-our $VERSION = '1.100850';
+our $VERSION = '1.100860';
 # ABSTRACT: Base class for time line builders
 use Data::Timeline;
 use Data::Timeline::Entry;
@@ -35,7 +35,7 @@ Data::Timeline::Builder - Base class for time line builders
 
 =head1 VERSION
 
-version 1.100850
+version 1.100860
 
 =head1 SYNOPSIS
 

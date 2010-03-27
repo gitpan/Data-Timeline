@@ -9,7 +9,7 @@
       "version" : 1.4,
       "url" : "http://module-build.sourceforge.net/META-spec-v1.4.html"
    },
-   "version" : "1.100850",
+   "version" : "1.100860",
    "name" : "Data-Timeline",
    "author" : [
       "Marcel Gruenauer <marcel@cpan.org>"
@@ -18,27 +18,27 @@
    "build_requires" : {},
    "provides" : {
       "Data::Timeline::Formatter" : {
-         "version" : "1.100850",
+         "version" : "1.100860",
          "file" : "lib/Data/Timeline/Formatter.pm"
       },
       "Data::Timeline" : {
-         "version" : "1.100850",
+         "version" : "1.100860",
          "file" : "lib/Data/Timeline.pm"
       },
       "Data::Timeline::Formatter::SimpleTable" : {
-         "version" : "1.100850",
+         "version" : "1.100860",
          "file" : "lib/Data/Timeline/Formatter/SimpleTable.pm"
       },
       "Data::Timeline::Formatter::HTML" : {
-         "version" : "1.100850",
+         "version" : "1.100860",
          "file" : "lib/Data/Timeline/Formatter/HTML.pm"
       },
       "Data::Timeline::Builder" : {
-         "version" : "1.100850",
+         "version" : "1.100860",
          "file" : "lib/Data/Timeline/Builder.pm"
       },
       "Data::Timeline::Entry" : {
-         "version" : "1.100850",
+         "version" : "1.100860",
          "file" : "lib/Data/Timeline/Entry.pm"
       }
    },

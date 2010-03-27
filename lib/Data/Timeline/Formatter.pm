@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Data::Timeline::Formatter;
-our $VERSION = '1.100850';
+our $VERSION = '1.100860';
 # ABSTRACT: Base class for time line formatters
 use parent qw(Class::Accessor::Complex Class::Accessor::Constructor);
 __PACKAGE__
@@ -21,7 +21,7 @@ Data::Timeline::Formatter - Base class for time line formatters
 
 =head1 VERSION
 
-version 1.100850
+version 1.100860
 
 =head1 SYNOPSIS
 

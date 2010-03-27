@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Data::Timeline::Entry;
-our $VERSION = '1.100850';
+our $VERSION = '1.100860';
 # ABSTRACT: A time line entry
 use parent qw(Class::Accessor::Complex Class::Accessor::Constructor);
 __PACKAGE__
@@ -21,7 +21,7 @@ Data::Timeline::Entry - A time line entry
 
 =head1 VERSION
 
-version 1.100850
+version 1.100860
 
 =head1 SYNOPSIS
 

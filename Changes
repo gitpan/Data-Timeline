@@ -1,5 +1,10 @@
 Revision history for Perl extension Data-Timeline
 
+1.100860  2010-03-27 11:07:40 Europe/Vienna
+    - removed stray perl version requirement
+    - rebuild with more robust versions report test (HTML::Table's illegal
+      version string '2.08a' caused problems)
+
 1.100850  2010-03-26 16:42:38 Europe/Vienna
     - converted the distribution to Dist::Zilla-style
 
